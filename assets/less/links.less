@@ -1,0 +1,11 @@
+.link-shadow {
+    box-shadow: 0 -5px 0 0 config('colors.green-lighter') inset;
+
+    &:hover {
+        box-shadow: inset 0 -50px 0 0 config('colors.green-lighter');
+    }
+}
+
+.link-transition {
+    transition: box-shadow .30s;
+}

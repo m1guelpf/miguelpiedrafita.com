@@ -1,0 +1,26 @@
+@responsive {
+  .grid {
+    display: grid;
+  }
+
+  .grid-1 {
+    grid-template-columns: auto;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .grid-gap-4 {
+    grid-gap: config('width.4');
+  }
+
+}
