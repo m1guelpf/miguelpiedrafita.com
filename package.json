@@ -17,6 +17,6 @@
     "less": "2.7.3",
     "less-loader": "4.0.5",
     "purgecss-webpack-plugin": "0.20.1",
-    "tailwindcss": "0.3.0"
+    "tailwindcss": "0.4.3"
   }
 }
