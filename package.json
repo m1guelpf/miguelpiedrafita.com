@@ -13,7 +13,7 @@
     "autoprefixer": "8.1.0",
     "cross-env": "5.1.4",
     "glob-all": "3.1.0",
-    "laravel-mix": "2.0.0",
+    "laravel-mix": "2.1.0",
     "less": "3.0.1",
     "less-loader": "4.1.0",
     "purgecss-webpack-plugin": "0.20.1",
