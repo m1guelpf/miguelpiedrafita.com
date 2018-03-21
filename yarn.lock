@@ -304,15 +304,15 @@ atob@~1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-1.1.3.tgz#95f13629b12c3a51a5d215abdce2aa9f32f80773"
 
-autoprefixer@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.1.0.tgz#374cf35be1c0e8fce97408d876f95f66f5cb4641"
+autoprefixer@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.2.0.tgz#1e49b611b31a5259b86b7a6b2b1b8faf091abe2a"
   dependencies:
-    browserslist "^3.1.1"
-    caniuse-lite "^1.0.30000810"
+    browserslist "^3.2.0"
+    caniuse-lite "^1.0.30000817"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^6.0.19"
+    postcss "^6.0.20"
     postcss-value-parser "^3.2.3"
 
 autoprefixer@^6.3.1:
@@ -1128,12 +1128,12 @@ browserslist@^2.11.3:
     caniuse-lite "^1.0.30000792"
     electron-to-chromium "^1.3.30"
 
-browserslist@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.1.1.tgz#d380fc048bc3a33e60fb87dc135110ebaaa6320a"
+browserslist@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.0.tgz#3d4a99710c12101e4567c9aeedade49c958cb883"
   dependencies:
-    caniuse-lite "^1.0.30000809"
-    electron-to-chromium "^1.3.33"
+    caniuse-lite "^1.0.30000815"
+    electron-to-chromium "^1.3.39"
 
 buffer-crc32@~0.2.3:
   version "0.2.13"
@@ -1271,9 +1271,13 @@ caniuse-lite@^1.0.30000684:
   version "1.0.30000701"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000701.tgz#9d673cf6b74dcb3d5c21d213176b011ac6a45baa"
 
-caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000809, caniuse-lite@^1.0.30000810:
+caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
   version "1.0.30000813"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000813.tgz#7b25e27fdfb8d133f3c932b01f77452140fcc6c9"
+
+caniuse-lite@^1.0.30000815, caniuse-lite@^1.0.30000817:
+  version "1.0.30000817"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000817.tgz#e993c380eb4bfe76a2aed4223f841c02d6e0d832"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1329,7 +1333,7 @@ chalk@^2.1.0, chalk@^2.3.0:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
-chalk@^2.3.1:
+chalk@^2.3.1, chalk@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -2286,9 +2290,13 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.14:
   version "1.3.15"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.15.tgz#08397934891cbcfaebbd18b82a95b5a481138369"
 
-electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.33:
+electron-to-chromium@^1.3.30:
   version "1.3.36"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.36.tgz#0eabf71a9ebea9013fb1cc35a390e068624f27e8"
+
+electron-to-chromium@^1.3.39:
+  version "1.3.40"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.40.tgz#1fbd6d97befd72b8a6f921dc38d22413d2f6fddf"
 
 elliptic@^6.0.0:
   version "6.3.2"
@@ -5699,7 +5707,7 @@ postcss@^5.2.4:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.11, postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17, postcss@^6.0.19:
+postcss@^6.0.0, postcss@^6.0.11, postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17:
   version "6.0.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.19.tgz#76a78386f670b9d9494a655bf23ac012effd1555"
   dependencies:
@@ -5714,6 +5722,14 @@ postcss@^6.0.1:
     chalk "^2.0.1"
     source-map "^0.5.6"
     supports-color "^4.1.0"
+
+postcss@^6.0.20:
+  version "6.0.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.20.tgz#686107e743a12d5530cb68438c590d5b2bf72c3c"
+  dependencies:
+    chalk "^2.3.2"
+    source-map "^0.6.1"
+    supports-color "^5.3.0"
 
 postcss@^6.0.8:
   version "6.0.14"
