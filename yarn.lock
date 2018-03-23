@@ -5707,7 +5707,7 @@ postcss@^5.2.4:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.11, postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17:
+postcss@^6.0.0, postcss@^6.0.11, postcss@^6.0.14, postcss@^6.0.17:
   version "6.0.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.19.tgz#76a78386f670b9d9494a655bf23ac012effd1555"
   dependencies:
@@ -5846,22 +5846,22 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-purgecss-webpack-plugin@0.20.1:
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-0.20.1.tgz#4bcd4f38e37d55a748b5c5865be70278a995947c"
+purgecss-webpack-plugin@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-0.22.0.tgz#b1e7e1a6b798678552097a6e0cae34b11f81f1ac"
   dependencies:
     eslint-plugin-html "^4.0.2"
-    purgecss "^0.20.0"
+    purgecss "^0.21.0"
     webpack-sources "^1.1.0"
 
-purgecss@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-0.20.0.tgz#ecef0256cf1e5f59d8bf16466c5855e93a2444dc"
+purgecss@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-0.21.0.tgz#64e62668ef11c9bc03d233843ad7006e1dfe578d"
   dependencies:
     glob "^7.1.2"
-    postcss "^6.0.16"
+    postcss "^6.0.20"
     postcss-selector-parser "^3.1.1"
-    yargs "^11.0.0"
+    yargs "^11.1.0"
 
 q@^1.1.2:
   version "1.4.1"
@@ -7882,9 +7882,9 @@ yargs@6.6.0:
     y18n "^3.2.1"
     yargs-parser "^4.2.0"
 
-yargs@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-11.0.0.tgz#c052931006c5eee74610e5fc0354bedfd08a201b"
+yargs@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
   dependencies:
     cliui "^4.0.0"
     decamelize "^1.1.1"
