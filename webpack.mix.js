@@ -26,7 +26,7 @@ class TailwindExtractor {
  |
  */
 
-mix.less('assets/less/app.less', 'site/css')
+mix.less('assets/less/app.less', 'public/css')
    .options({
      postCss: [
        tailwindcss('./tailwind.js'),
