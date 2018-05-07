@@ -38,7 +38,7 @@ if (mix.inProduction()) {
     mix.webpackConfig({
         plugins: [
           new PurgecssPlugin({
-            paths: glob.sync([path.join(__dirname, "site/*.html")]),
+            paths: glob.sync([path.join(__dirname, "public/*.html")]),
             extractors: [
               {
                 extractor: TailwindExtractor,
