@@ -5771,9 +5771,9 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
-purgecss-webpack-plugin@0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-0.22.0.tgz#b1e7e1a6b798678552097a6e0cae34b11f81f1ac"
+purgecss-webpack-plugin@0.22.1:
+  version "0.22.1"
+  resolved "https://registry.yarnpkg.com/purgecss-webpack-plugin/-/purgecss-webpack-plugin-0.22.1.tgz#1f5f802959fe03e986d92e1e7205c6ca8c07c2cd"
   dependencies:
     eslint-plugin-html "^4.0.2"
     purgecss "^0.21.0"
